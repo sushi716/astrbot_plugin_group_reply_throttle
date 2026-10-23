@@ -1,0 +1,6 @@
+name: astrbot_plugin_group_reply_throttle
+display_name: 群聊回复节流
+desc: 同一群 15 秒内只保留一条主动回复（被 @ 必回不受影响），消除多插件/多机制撞车导致的连续多条
+version: v1.0.0
+author: sushi716
+repo: https://github.com/sushi716/astrbot_plugin_group_reply_throttle

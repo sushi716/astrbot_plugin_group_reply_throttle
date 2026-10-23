@@ -1,0 +1,17 @@
+{
+  "throttle_seconds": {
+    "description": "节流窗口（秒）",
+    "type": "int",
+    "default": 15
+  },
+  "stamp_file": {
+    "description": "共享时间戳文件路径（留空用插件目录）",
+    "type": "string",
+    "default": ""
+  },
+  "ignore_at": {
+    "description": "被 @ 时不受节流限制",
+    "type": "bool",
+    "default": true
+  }
+}
